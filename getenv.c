@@ -1,4 +1,4 @@
-#include "main.h"
+#include "sash.h"
 
 /**
  * letter_ch - compare chars of strings

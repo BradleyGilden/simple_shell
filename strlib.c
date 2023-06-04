@@ -1,4 +1,4 @@
-#include "main.h"
+#include "sash.h"
 
 /**
  * _strlen - calculates length of a string

@@ -1,4 +1,4 @@
-#include "main.h"
+#include "sash.h"
 
 /**
  * exec - function utilises execve() to execute standard commands in path

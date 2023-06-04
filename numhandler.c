@@ -1,4 +1,4 @@
-#include "main.h"
+#include "sash.h"
 
 /**
  * count_digits - counts the number of digits in an int including '-' sign

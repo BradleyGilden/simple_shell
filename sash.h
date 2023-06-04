@@ -1,5 +1,5 @@
-#ifndef _MAIN_H_
-#define _MAIN_H_
+#ifndef _SASH_H_
+#define _SASH_H_
 
 #include <stdio.h>
 #include <string.h>
@@ -88,4 +88,4 @@ void handle_sigint(int __attribute__((unused))sig);
 int letter_ch(char s[], const char *part);
 char *str_tok(char str[], const char *part);
 
-#endif /*_MAIN_H_*/
+#endif /*_SASH_H_*/

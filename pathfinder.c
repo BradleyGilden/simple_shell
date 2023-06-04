@@ -1,4 +1,4 @@
-#include "main.h"
+#include "sash.h"
 
 /**
  * find_path - builds path directory for the standard command cmd entered

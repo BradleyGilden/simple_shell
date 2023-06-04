@@ -1,4 +1,4 @@
-#include "main.h"
+#include "sash.h"
 
 /**
  * write_exec_err2 - writes error output for exit argument error

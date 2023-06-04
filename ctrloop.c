@@ -1,6 +1,4 @@
-#include "main.h"
-#include <stdio.h>
-#include <unistd.h>
+#include "sash.h"
 
 /**
  * w_out - prints strings out onto screen using write

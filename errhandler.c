@@ -1,4 +1,4 @@
-#include "main.h"
+#include "sash.h"
 
 /**
  * malloc_checkptr - check if return is NULL and exit if condition is met

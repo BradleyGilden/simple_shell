@@ -1,4 +1,4 @@
-#include "main.h"
+#include "sash.h"
 #include <stdlib.h>
 
 /**

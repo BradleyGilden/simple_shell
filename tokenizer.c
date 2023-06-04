@@ -1,4 +1,4 @@
-#include "main.h"
+#include "sash.h"
 
 /**
  * splitstr - function splits string in tokens.

@@ -1,4 +1,4 @@
-#include "main.h"
+#include "sash.h"
 
 /**
  * free_alloced_mem_on_exit - free's all memory and sets it to null

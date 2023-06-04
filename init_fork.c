@@ -1,4 +1,4 @@
-#include "main.h"
+#include "sash.h"
 
 /**
  * forkerr - handles for errors
