@@ -8,8 +8,9 @@
 
 void handle_sigint(int __attribute__((unused))sig)
 {
+	char *prompt = "\n✔ <0> $ ";
 	signal(sig, handle_sigint);
-	write(STDOUT_FILENO, "\n$ ", 3);
+	w_out(prompt);
 }
 
 /**

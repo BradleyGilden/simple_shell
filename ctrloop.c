@@ -12,13 +12,28 @@ void w_out(char *message)
 
 /**
  * display_prompt - displays prompt in interactive mode
+ * @es: error status
  */
-void display_prompt(void)
+void display_prompt(int es)
 {
-	char *symbol = "$ ";
+	char *stable = "✔ <";
+	char *err = "✖ <";
+	char *end = "> $ ";
+	char *str_es;
 
 	if (isatty(STDIN_FILENO))
-		w_out(symbol);
+	{
+		str_es = malloc(sizeof(char) * (count_digits(es) + 1));
+		malloc_checkptr(str_es);
+		to_string(es, str_es);
+		if (es == 0)
+			w_out(stable);
+		else
+			w_out(err);
+		w_out(str_es);
+		w_out(end);
+		free(str_es);
+	}
 }
 
 /**
@@ -38,7 +53,7 @@ void my_getline(char *av)
 	glob.av = av;
 	while (1)
 	{
-		display_prompt();
+		display_prompt(glob.es);
 
 		getlin_ret = getline(&(glob.lineptr), &n, stdin);
 		getret(&glob, getlin_ret);

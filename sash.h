@@ -60,7 +60,7 @@ char *_getenv(char *path);
 char *find_path(char *cmd);
 int check_path(char *cmd);
 void forking(myglob_t *glob);
-void display_prompt(void);
+void display_prompt(int es);
 void w_out(char *message);
 
 /*Built In Functions*/
