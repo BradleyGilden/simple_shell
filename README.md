@@ -141,19 +141,26 @@ $
   ```
   ✔ <0> $ echo hey
   hey
+
   ✔ <0> $ lsdjf
   ./sash: 2: lsdjf: not found
+
   ✖ <127> $ echo $?
   127
+
   ✔ <0> $ /bin
   ./sash: 2: /bin: Permission denied
+
   ✖ <126> $ echo $?
   126
+
   ✔ <0> $ echo $$
   11801
+
   ✔ <0> $ exit 22
   $ echo $?
   22
+  
   ```
   note: symbol changes when there is an error and exit will work even without arguments
 
