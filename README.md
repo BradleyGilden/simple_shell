@@ -136,7 +136,7 @@ $
 * ## exit with args & echo with args
   
   You are able to forcefully exit with custom status using exit [value].
-  Displaying exit status is also possible with echo $? and to display current process ID use: echo $$
+  Displaying exit status is also possible with `echo $?` and to display current process ID use: `echo $$`
   
   ```
   ✔ <0> $ echo hey
